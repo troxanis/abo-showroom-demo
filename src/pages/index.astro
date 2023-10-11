@@ -1,0 +1,12 @@
+---
+import Layout from '../layouts/Layout.astro';
+import RoomViewer from '../components/RoomViewer'
+import '@photo-sphere-viewer/core/index.css'
+import '@photo-sphere-viewer/gallery-plugin/index.css'
+import "@photo-sphere-viewer/markers-plugin/index.css"
+---
+
+<Layout title='Showroom Demo'>
+  <RoomViewer client:load />
+</Layout>
+
